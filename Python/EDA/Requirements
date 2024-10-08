@@ -1,0 +1,36 @@
+
+Requirements
+
+1. Python Libraries
+  pandas: For data manipulation, cleaning, and analysis.
+  matplotlib: For basic plotting and visualizations.
+  seaborn: For advanced data visualizations (like heatmaps, boxplots).
+  scikit-learn: For encoding categorical data.
+
+2. Dataset Requirements
+  Data Source: A CSV dataset (figure-14-he-student-enrolments-by-subject-area-and-sex-2013-14-to-2017-18-8.csv) containing the following columns:
+  Subject Area
+  First Year Marker
+  Level of Study
+  Mode of Study
+  Country of HE Provider
+  Sex
+  Academic Year
+  Number (of students enrolled)
+
+3. Data Cleaning Requirements
+  Remove Irrelevant or Aggregate Rows: Rows containing summary values like 'Total', 'All', or similar aggregate rows need to be removed. These include:
+  'Total' in Subject Area.
+  'All' in Level of Study, Mode of Study, Country of HE Provider, Sex.
+
+4. Encoding Categorical Variables
+  Label Encoding: Categorical variables like Subject Area, Level of Study, etc., need to be encoded into numeric format before applying any correlation analysis.
+
+5. Handling Numeric Data
+  Ensure the Number column is fully numeric
+
+6. Correlation Analysis
+  Heatmap: Visualizing the correlation between numeric columns using a heatmap.
+
+7. Visualization for EDA
+  Histograms, bar plots, line plots, and heatmaps to explore distributions, relationships, and trends over time.

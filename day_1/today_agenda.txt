@@ -1,0 +1,6 @@
+setup slack
+kaggle
+letcode
+github pull request
+hackker 
+basic introduction
